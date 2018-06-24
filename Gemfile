@@ -38,7 +38,7 @@ gem 'spree', '~> 3.6.0.rc1'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'rack-cors'
-gem 'spree_ams', path: '~/open_source/spree_ams'
+gem 'spree_ams', github: 'pankajkumar1104/spree_ams', branch: '3-6-stable'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

@@ -1,5 +1,7 @@
-PATH
-  remote: ../../../open_source/spree_ams
+GIT
+  remote: https://github.com/pankajkumar1104/spree_ams.git
+  revision: f0a21323feb51cce34619d2e40b0e4b98fd5ba56
+  branch: 3-6-stable
   specs:
     spree_ams (3.6.0)
       active_model_serializers (~> 0.8.2)
